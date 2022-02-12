@@ -1,0 +1,88 @@
+/*#box1,#box2{
+height: 100px;
+width: 350px;
+border: 1px solid red;
+}
+#box2{
+    box-sizing: border-box;
+    padding: 50px;
+    overflow-y: auto;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #34495E;
+    font-family: "Open Sans", sans-serif;
+}
+#box{
+    width: 450px;
+    margin: 0 auto;
+    background-color:white;
+    margin-top: 100px; ;
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 10px solid #3498DB;
+}
+#box .logo{
+    width: 100px;
+    
+}
+#innerbox{
+    width: 71%;
+    margin: 0 auto;
+}
+#box h1{
+    font-size: 25px;
+    margin: 5px 0;
+}
+#box h5{
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 5px;
+}
+.from-group{
+    margin: 12px 0;
+}
+.from-control{
+    width: 100%;
+    background:#fff;
+    padding: 8px;
+    border-radius: 3px;
+    border-color: #999;
+}
+.btn{
+    width: 100%;
+    color: #fff;
+    padding: 4px 0;
+    border-radius: 3px;
+    outline: none;
+}
+.btn-login{
+    background-color: #2ECC71;
+    color:#fff
+}
+.btn-register{
+    background-color: #3498DB;
+    color:#fff
+}
+p{
+    margin:3px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2ECC71;
+
+}
+p span{
+    color: #E74C3C;
+    font-weight: bold;
+
+}
+a{
+    color:rgb(65, 35, 235);
+    font-size: 11px;
+    text-decoration: none;
+
+}
